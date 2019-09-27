@@ -10,6 +10,10 @@ import UIKit
 
 class CartShowTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var cartshowImage: UIImageView!
+    @IBOutlet weak var cartshowName: UILabel!
+    @IBOutlet weak var cartshowPrice: UILabel!
+    @IBOutlet weak var cartshowCount: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
